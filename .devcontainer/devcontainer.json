@@ -6,6 +6,13 @@
 	"image": "mcr.microsoft.com/devcontainers/python:1-3.11-bookworm",
 	"features": {
 		"ghcr.io/devcontainers-contrib/features/poetry:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"charliermarsh.ruff"
+			]
+		}
 	}
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
